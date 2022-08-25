@@ -53,8 +53,6 @@ main h1 {
   margin-left: 10px;
 }
 main p {
-  width: 80%;
-
   color: #000000;
 }
 input {
@@ -155,10 +153,6 @@ input {
   align-items: flex-start !important;
   margin-left: 10px !important;
 }
-main p {
-  width: 90%;
-  color: #000000;
-}
 .cardH {
   display: flex;
   flex-direction: column;
@@ -176,6 +170,19 @@ main p {
   border-radius: 20px 0px 0px 20px;
   padding: 7px;
 }
+.infoContainer .iconContainer {
+  width: 30px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  color: #0065fc;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid #f2f2f2;
+  margin-left: 23px;
+}
 .cardH img {
   height: 130px;
   width: 100%;
@@ -187,6 +194,13 @@ main p {
   width: 100%;
   margin-top: 30px;
   margin-bottom: 20px;
+}
+#textCity {
+  margin-left: 20px;
+  width: 95%;
+}
+#textInfo {
+  width: 95%;
 }
 
 #container {
@@ -206,6 +220,10 @@ main p {
   width: 100%;
   border-radius: 20px;
   margin-bottom: 30px;
+}
+#titreActivites {
+  width: 100%;
+  margin-bottom: 15px;
 }
 .buttonH {
   width: 100%;

@@ -188,6 +188,7 @@ input {
   margin-left: 5px;
   margin-top: 10px;
   margin-bottom: 20px;
+  position: relative;
 }
 .cardF img {
   width: 49%;
@@ -207,7 +208,8 @@ input {
 }
 .cardFstars {
   width: 100%;
-  margin-top: 80px;
+  position: absolute;
+  bottom: 15px;
   color: #0065fc;
 }
 
