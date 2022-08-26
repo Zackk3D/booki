@@ -137,6 +137,13 @@ input {
 #button4 {
   width: 60%;
 }
+.cardFstars {
+  /* test */
+  width: 45%;
+  position: absolute;
+  bottom: 15px;
+  color: #0065fc;
+}
 .filterContainer button {
   display: flex;
   align-items: center;
