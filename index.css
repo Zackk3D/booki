@@ -207,7 +207,7 @@ input {
   color: black;
 }
 .cardFstars {
-  width: 100%;
+  width: 45%;
   position: absolute;
   bottom: 15px;
   color: #0065fc;
